@@ -38,3 +38,7 @@ Perform security testing only against systems you own or are explicitly authoriz
 ## License
 
 MIT. See [LICENSE](LICENSE).
+
+## Supporting utility
+
+Added `json2paths.py`, a passive local OpenAPI/Swagger path inventory helper. Run `python3 json2paths.py swagger.json`. YAML input additionally requires PyYAML. The script does not send requests or perform vulnerability testing. Test only systems you own or are explicitly authorized to assess.
